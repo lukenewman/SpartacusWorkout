@@ -1,0 +1,16 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "4eafd9a34c5391f1135481cf94e3f975"
+build_time: [522201595, 733992000]
+inputs:
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/Pods/SnapKit/Source/Constraint.swift": [508387938, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/Pods/SnapKit/Source/ConstraintAttributes.swift": [508387938, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/Pods/SnapKit/Source/ConstraintDescription.swift": [508387938, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/Pods/SnapKit/Source/ConstraintItem.swift": [508387938, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/Pods/SnapKit/Source/ConstraintMaker.swift": [508387938, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/Pods/SnapKit/Source/ConstraintRelation.swift": [508387938, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/Pods/SnapKit/Source/Debugging.swift": [508387938, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/Pods/SnapKit/Source/EdgeInsets.swift": [508387938, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/Pods/SnapKit/Source/LayoutConstraint.swift": [508387938, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/Pods/SnapKit/Source/SnapKit.swift": [508387938, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/Pods/SnapKit/Source/View+SnapKit.swift": [508387938, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/Pods/SnapKit/Source/ViewController+SnapKit.swift": [508387938, 0]

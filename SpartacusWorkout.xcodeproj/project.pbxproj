@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F30BA261D40430E006BDFB2 /* libChameleonFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F30BA251D40430E006BDFB2 /* libChameleonFramework.a */; };
+		3F58BD9C1C6AC62400B43331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F58BD9B1C6AC62400B43331 /* AppDelegate.swift */; };
+		3F58BD9E1C6AC62400B43331 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F58BD9D1C6AC62400B43331 /* MainMenuViewController.swift */; };
+		3F58BDA11C6AC62400B43331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F58BD9F1C6AC62400B43331 /* Main.storyboard */; };
+		3F58BDA31C6AC62400B43331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F58BDA21C6AC62400B43331 /* Assets.xcassets */; };
+		3F58BDA61C6AC62400B43331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F58BDA41C6AC62400B43331 /* LaunchScreen.storyboard */; };
+		3F58BDB01C6ACF1F00B43331 /* WorkoutSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F58BDAF1C6ACF1F00B43331 /* WorkoutSession.swift */; };
+		3FF1DC4A1C6AE6F40064FC0C /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1DC491C6AE6F40064FC0C /* Workout.swift */; };
+		3FF1DC4C1C6AE7550064FC0C /* GobletSquat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1DC4B1C6AE7550064FC0C /* GobletSquat.swift */; };
+		3FF1DC4F1C6AE9E80064FC0C /* MountainClimber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1DC4E1C6AE9E80064FC0C /* MountainClimber.swift */; };
+		3FF1DC511C6AEA470064FC0C /* DumbbellSwing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1DC501C6AEA470064FC0C /* DumbbellSwing.swift */; };
+		3FF1DC531C6AEA5C0064FC0C /* TPushup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1DC521C6AEA5C0064FC0C /* TPushup.swift */; };
+		3FF1DC551C6AEA7C0064FC0C /* SplitJump.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1DC541C6AEA7C0064FC0C /* SplitJump.swift */; };
+		3FF1DC571C6AEA940064FC0C /* DumbbellRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1DC561C6AEA940064FC0C /* DumbbellRow.swift */; };
+		3FF1DC591C6AEAAF0064FC0C /* Abs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1DC581C6AEAAF0064FC0C /* Abs.swift */; };
+		3FF1DC5B1C6AEAC70064FC0C /* PushupRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1DC5A1C6AEAC70064FC0C /* PushupRow.swift */; };
+		3FF1DC5D1C6AEAE10064FC0C /* DumbbellLungeTwist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1DC5C1C6AEAE10064FC0C /* DumbbellLungeTwist.swift */; };
+		3FF1DC5F1C6AEB260064FC0C /* ShoulderPress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1DC5E1C6AEB260064FC0C /* ShoulderPress.swift */; };
+		3FF1DC611C6AEBD80064FC0C /* Rest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1DC601C6AEBD80064FC0C /* Rest.swift */; };
+		3FF1DC631C6AEE380064FC0C /* WorkoutSessionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF1DC621C6AEE380064FC0C /* WorkoutSessionViewController.swift */; };
+		B67D2BCC39F7C8237965EBE1 /* libPods-SpartacusWorkout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 142939955D89272AC9BCFA4B /* libPods-SpartacusWorkout.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05DF91D5952A986703AB6899 /* Pods-SpartacusWorkout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartacusWorkout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpartacusWorkout/Pods-SpartacusWorkout.debug.xcconfig"; sourceTree = "<group>"; };
+		0771FA28EF1D64ECCBAB935C /* Pods-SpartacusWorkout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpartacusWorkout.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpartacusWorkout/Pods-SpartacusWorkout.release.xcconfig"; sourceTree = "<group>"; };
+		142939955D89272AC9BCFA4B /* libPods-SpartacusWorkout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SpartacusWorkout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F259C781D3DA4F6008D8722 /* ChameleonFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ChameleonFramework.framework; path = "Build/Products/Debug-iphonesimulator/ChameleonFramework.framework"; sourceTree = "<group>"; };
+		3F259C791D3DA4F6008D8722 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = "Build/Products/Debug-iphonesimulator/SnapKit.framework"; sourceTree = "<group>"; };
+		3F30BA251D40430E006BDFB2 /* libChameleonFramework.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libChameleonFramework.a; path = "Build/Products/Debug-iphonesimulator/ChameleonFramework/libChameleonFramework.a"; sourceTree = "<group>"; };
+		3F58BD981C6AC62400B43331 /* SpartacusWorkout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpartacusWorkout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F58BD9B1C6AC62400B43331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F58BD9D1C6AC62400B43331 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		3F58BDA01C6AC62400B43331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F58BDA21C6AC62400B43331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F58BDA51C6AC62400B43331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F58BDA71C6AC62400B43331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F58BDAF1C6ACF1F00B43331 /* WorkoutSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutSession.swift; sourceTree = "<group>"; };
+		3FF1DC491C6AE6F40064FC0C /* Workout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		3FF1DC4B1C6AE7550064FC0C /* GobletSquat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GobletSquat.swift; sourceTree = "<group>"; };
+		3FF1DC4E1C6AE9E80064FC0C /* MountainClimber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MountainClimber.swift; sourceTree = "<group>"; };
+		3FF1DC501C6AEA470064FC0C /* DumbbellSwing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DumbbellSwing.swift; sourceTree = "<group>"; };
+		3FF1DC521C6AEA5C0064FC0C /* TPushup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TPushup.swift; sourceTree = "<group>"; };
+		3FF1DC541C6AEA7C0064FC0C /* SplitJump.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitJump.swift; sourceTree = "<group>"; };
+		3FF1DC561C6AEA940064FC0C /* DumbbellRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DumbbellRow.swift; sourceTree = "<group>"; };
+		3FF1DC581C6AEAAF0064FC0C /* Abs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abs.swift; sourceTree = "<group>"; };
+		3FF1DC5A1C6AEAC70064FC0C /* PushupRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushupRow.swift; sourceTree = "<group>"; };
+		3FF1DC5C1C6AEAE10064FC0C /* DumbbellLungeTwist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DumbbellLungeTwist.swift; sourceTree = "<group>"; };
+		3FF1DC5E1C6AEB260064FC0C /* ShoulderPress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoulderPress.swift; sourceTree = "<group>"; };
+		3FF1DC601C6AEBD80064FC0C /* Rest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rest.swift; sourceTree = "<group>"; };
+		3FF1DC621C6AEE380064FC0C /* WorkoutSessionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutSessionViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F58BD951C6AC62400B43331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F30BA261D40430E006BDFB2 /* libChameleonFramework.a in Frameworks */,
+				B67D2BCC39F7C8237965EBE1 /* libPods-SpartacusWorkout.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BDECC162B7CB12454C3E064 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05DF91D5952A986703AB6899 /* Pods-SpartacusWorkout.debug.xcconfig */,
+				0771FA28EF1D64ECCBAB935C /* Pods-SpartacusWorkout.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3F58BD8F1C6AC62400B43331 = {
+			isa = PBXGroup;
+			children = (
+				3F58BD9A1C6AC62400B43331 /* SpartacusWorkout */,
+				3F58BD991C6AC62400B43331 /* Products */,
+				0BDECC162B7CB12454C3E064 /* Pods */,
+				408E4211B1C17BCAFD7CAE7A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F58BD991C6AC62400B43331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F58BD981C6AC62400B43331 /* SpartacusWorkout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F58BD9A1C6AC62400B43331 /* SpartacusWorkout */ = {
+			isa = PBXGroup;
+			children = (
+				3F58BD9B1C6AC62400B43331 /* AppDelegate.swift */,
+				3F58BD9D1C6AC62400B43331 /* MainMenuViewController.swift */,
+				3FF1DC621C6AEE380064FC0C /* WorkoutSessionViewController.swift */,
+				3FF1DC4D1C6AE75C0064FC0C /* Workouts */,
+				3F58BD9F1C6AC62400B43331 /* Main.storyboard */,
+				3F58BDA21C6AC62400B43331 /* Assets.xcassets */,
+				3F58BDA41C6AC62400B43331 /* LaunchScreen.storyboard */,
+				3F58BDA71C6AC62400B43331 /* Info.plist */,
+			);
+			path = SpartacusWorkout;
+			sourceTree = "<group>";
+		};
+		3FF1DC4D1C6AE75C0064FC0C /* Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				3F58BDAF1C6ACF1F00B43331 /* WorkoutSession.swift */,
+				3FF1DC491C6AE6F40064FC0C /* Workout.swift */,
+				3FF1DC601C6AEBD80064FC0C /* Rest.swift */,
+				3FF1DC4B1C6AE7550064FC0C /* GobletSquat.swift */,
+				3FF1DC4E1C6AE9E80064FC0C /* MountainClimber.swift */,
+				3FF1DC501C6AEA470064FC0C /* DumbbellSwing.swift */,
+				3FF1DC521C6AEA5C0064FC0C /* TPushup.swift */,
+				3FF1DC541C6AEA7C0064FC0C /* SplitJump.swift */,
+				3FF1DC561C6AEA940064FC0C /* DumbbellRow.swift */,
+				3FF1DC581C6AEAAF0064FC0C /* Abs.swift */,
+				3FF1DC5A1C6AEAC70064FC0C /* PushupRow.swift */,
+				3FF1DC5C1C6AEAE10064FC0C /* DumbbellLungeTwist.swift */,
+				3FF1DC5E1C6AEB260064FC0C /* ShoulderPress.swift */,
+			);
+			name = Workouts;
+			sourceTree = "<group>";
+		};
+		408E4211B1C17BCAFD7CAE7A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F30BA251D40430E006BDFB2 /* libChameleonFramework.a */,
+				3F259C781D3DA4F6008D8722 /* ChameleonFramework.framework */,
+				3F259C791D3DA4F6008D8722 /* SnapKit.framework */,
+				142939955D89272AC9BCFA4B /* libPods-SpartacusWorkout.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F58BD971C6AC62400B43331 /* SpartacusWorkout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F58BDAA1C6AC62400B43331 /* Build configuration list for PBXNativeTarget "SpartacusWorkout" */;
+			buildPhases = (
+				993DE36A7B92CE3D6B18D25D /* [CP] Check Pods Manifest.lock */,
+				3F58BD941C6AC62400B43331 /* Sources */,
+				3F58BD951C6AC62400B43331 /* Frameworks */,
+				3F58BD961C6AC62400B43331 /* Resources */,
+				AA31B66F9B6AA23776786DFC /* [CP] Embed Pods Frameworks */,
+				CEF191E92116AF01C86C9457 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpartacusWorkout;
+			productName = SpartacusWorkout;
+			productReference = 3F58BD981C6AC62400B43331 /* SpartacusWorkout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F58BD901C6AC62400B43331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Luke Newman";
+				TargetAttributes = {
+					3F58BD971C6AC62400B43331 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3F58BD931C6AC62400B43331 /* Build configuration list for PBXProject "SpartacusWorkout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F58BD8F1C6AC62400B43331;
+			productRefGroup = 3F58BD991C6AC62400B43331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F58BD971C6AC62400B43331 /* SpartacusWorkout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F58BD961C6AC62400B43331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F58BDA61C6AC62400B43331 /* LaunchScreen.storyboard in Resources */,
+				3F58BDA31C6AC62400B43331 /* Assets.xcassets in Resources */,
+				3F58BDA11C6AC62400B43331 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		993DE36A7B92CE3D6B18D25D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AA31B66F9B6AA23776786DFC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpartacusWorkout/Pods-SpartacusWorkout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEF191E92116AF01C86C9457 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpartacusWorkout/Pods-SpartacusWorkout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F58BD941C6AC62400B43331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FF1DC5D1C6AEAE10064FC0C /* DumbbellLungeTwist.swift in Sources */,
+				3F58BDB01C6ACF1F00B43331 /* WorkoutSession.swift in Sources */,
+				3FF1DC551C6AEA7C0064FC0C /* SplitJump.swift in Sources */,
+				3FF1DC4F1C6AE9E80064FC0C /* MountainClimber.swift in Sources */,
+				3FF1DC591C6AEAAF0064FC0C /* Abs.swift in Sources */,
+				3FF1DC511C6AEA470064FC0C /* DumbbellSwing.swift in Sources */,
+				3F58BD9E1C6AC62400B43331 /* MainMenuViewController.swift in Sources */,
+				3FF1DC631C6AEE380064FC0C /* WorkoutSessionViewController.swift in Sources */,
+				3FF1DC5F1C6AEB260064FC0C /* ShoulderPress.swift in Sources */,
+				3FF1DC4C1C6AE7550064FC0C /* GobletSquat.swift in Sources */,
+				3FF1DC531C6AEA5C0064FC0C /* TPushup.swift in Sources */,
+				3F58BD9C1C6AC62400B43331 /* AppDelegate.swift in Sources */,
+				3FF1DC4A1C6AE6F40064FC0C /* Workout.swift in Sources */,
+				3FF1DC611C6AEBD80064FC0C /* Rest.swift in Sources */,
+				3FF1DC571C6AEA940064FC0C /* DumbbellRow.swift in Sources */,
+				3FF1DC5B1C6AEAC70064FC0C /* PushupRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F58BD9F1C6AC62400B43331 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F58BDA01C6AC62400B43331 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F58BDA41C6AC62400B43331 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F58BDA51C6AC62400B43331 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F58BDA81C6AC62400B43331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F58BDA91C6AC62400B43331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F58BDAB1C6AC62400B43331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05DF91D5952A986703AB6899 /* Pods-SpartacusWorkout.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphonesimulator",
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = SpartacusWorkout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphonesimulator/ChameleonFramework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukenewman.SpartacusWorkout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F58BDAC1C6AC62400B43331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0771FA28EF1D64ECCBAB935C /* Pods-SpartacusWorkout.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphonesimulator",
+					"$(SRCROOT)/**",
+				);
+				INFOPLIST_FILE = SpartacusWorkout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Build/Products/Debug-iphonesimulator/ChameleonFramework",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lukenewman.SpartacusWorkout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F58BD931C6AC62400B43331 /* Build configuration list for PBXProject "SpartacusWorkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F58BDA81C6AC62400B43331 /* Debug */,
+				3F58BDA91C6AC62400B43331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F58BDAA1C6AC62400B43331 /* Build configuration list for PBXNativeTarget "SpartacusWorkout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F58BDAB1C6AC62400B43331 /* Debug */,
+				3F58BDAC1C6AC62400B43331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F58BD901C6AC62400B43331 /* Project object */;
+}

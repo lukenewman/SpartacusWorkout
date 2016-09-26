@@ -1,0 +1,20 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "8e467711d51b47b46a566ed7fdb1f9cb"
+build_time: [525207993, 631230000]
+inputs:
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/DumbbellLungeTwist.swift": [508391410, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/WorkoutSession.swift": [525207670, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/SplitJump.swift": [508391305, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/MountainClimber.swift": [508391166, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/Abs.swift": [522552572, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/DumbbellSwing.swift": [508391251, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/MainMenuViewController.swift": [525207752, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/WorkoutSessionViewController.swift": [522554027, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/ShoulderPress.swift": [508391489, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/GobletSquat.swift": [508390564, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/TPushup.swift": [508391282, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/AppDelegate.swift": [508381988, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/Workout.swift": [508390465, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/Rest.swift": [508391771, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/DumbbellRow.swift": [508391329, 0]
+  "/Users/lukenewman/Developer/iOS/SpartacusWorkout/SpartacusWorkout/PushupRow.swift": [508391379, 0]

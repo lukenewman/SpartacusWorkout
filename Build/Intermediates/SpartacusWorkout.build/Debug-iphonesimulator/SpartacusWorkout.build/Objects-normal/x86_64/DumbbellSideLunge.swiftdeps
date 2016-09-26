@@ -1,0 +1,42 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DumbbellSideLunge"
+provides-nominal:
+- "C16SpartacusWorkout17DumbbellSideLunge"
+provides-member:
+- ["C16SpartacusWorkout17DumbbellSideLunge", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "StringLiteralType"
+- "DumbbellSideLunge"
+- "Workout"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instructions"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", ""]
+- ["C16SpartacusWorkout17DumbbellSideLunge", "deinit"]
+- ["C16SpartacusWorkout17DumbbellSideLunge", "init"]
+- !private ["C16SpartacusWorkout17DumbbellSideLunge", "instructions"]
+- !private ["C16SpartacusWorkout17DumbbellSideLunge", "title"]
+- !private ["SQ", "deinit"]
+- ["C16SpartacusWorkout7Workout", "init"]
+- !private ["C16SpartacusWorkout7Workout", "instructions"]
+- !private ["C16SpartacusWorkout7Workout", "title"]
+- ["C16SpartacusWorkout7Workout", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "C16SpartacusWorkout17DumbbellSideLunge"
+- !private "SQ"
+- "C16SpartacusWorkout7Workout"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "70c08fa731bde8bd7a502a05caa363bb"

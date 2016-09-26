@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/lukenewman/Developer/iOS/SpartacusWorkout/Build/Products/Debug-iphonesimulator/SnapKit.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/lukenewman/Developer/iOS/SpartacusWorkout/Build/Intermediates/Pods.build/Debug-iphonesimulator/SnapKit.build/unextended-module.modulemap',
+    }]
+  }]
+}

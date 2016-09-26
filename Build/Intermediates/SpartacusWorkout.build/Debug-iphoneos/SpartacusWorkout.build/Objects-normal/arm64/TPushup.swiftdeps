@@ -1,0 +1,42 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TPushup"
+provides-nominal:
+- "C16SpartacusWorkout7TPushup"
+provides-member:
+- ["C16SpartacusWorkout7TPushup", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "StringLiteralType"
+- "TPushup"
+- "Workout"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instructions"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", ""]
+- !private ["SQ", "deinit"]
+- ["C16SpartacusWorkout7TPushup", "deinit"]
+- ["C16SpartacusWorkout7TPushup", "init"]
+- !private ["C16SpartacusWorkout7TPushup", "instructions"]
+- !private ["C16SpartacusWorkout7TPushup", "title"]
+- ["C16SpartacusWorkout7Workout", "init"]
+- !private ["C16SpartacusWorkout7Workout", "instructions"]
+- !private ["C16SpartacusWorkout7Workout", "title"]
+- ["C16SpartacusWorkout7Workout", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "SQ"
+- "C16SpartacusWorkout7TPushup"
+- "C16SpartacusWorkout7Workout"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "bb74bb7602f29601c28b866560c48224"

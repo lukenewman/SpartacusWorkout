@@ -1,0 +1,3 @@
+framework module SnapKit {
+    header "SnapKit-Swift.h"
+}

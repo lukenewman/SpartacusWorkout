@@ -1,0 +1,42 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Rest"
+provides-nominal:
+- "C16SpartacusWorkout4Rest"
+provides-member:
+- ["C16SpartacusWorkout4Rest", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Workout"
+- !private "StringLiteralType"
+- "Rest"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instructions"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", ""]
+- !private ["SQ", "deinit"]
+- ["C16SpartacusWorkout4Rest", "deinit"]
+- ["C16SpartacusWorkout4Rest", "init"]
+- !private ["C16SpartacusWorkout4Rest", "instructions"]
+- !private ["C16SpartacusWorkout4Rest", "title"]
+- ["C16SpartacusWorkout7Workout", "init"]
+- !private ["C16SpartacusWorkout7Workout", "instructions"]
+- !private ["C16SpartacusWorkout7Workout", "title"]
+- ["C16SpartacusWorkout7Workout", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "SQ"
+- "C16SpartacusWorkout4Rest"
+- "C16SpartacusWorkout7Workout"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+interface-hash: "b16ac62816a4e90b88828908976b8cc3"

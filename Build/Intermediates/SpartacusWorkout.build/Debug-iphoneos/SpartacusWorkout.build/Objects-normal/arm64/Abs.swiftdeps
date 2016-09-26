@@ -1,0 +1,42 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Abs"
+provides-nominal:
+- "C16SpartacusWorkout3Abs"
+provides-member:
+- ["C16SpartacusWorkout3Abs", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "StringLiteralType"
+- "Workout"
+- "Abs"
+depends-member:
+- ["C16SpartacusWorkout3Abs", "deinit"]
+- ["C16SpartacusWorkout3Abs", "init"]
+- !private ["C16SpartacusWorkout3Abs", "instructions"]
+- !private ["C16SpartacusWorkout3Abs", "title"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instructions"]
+- !private ["Ps9AnyObject", "title"]
+- ["Ps9AnyObject", ""]
+- !private ["SQ", "deinit"]
+- ["C16SpartacusWorkout7Workout", "init"]
+- !private ["C16SpartacusWorkout7Workout", "instructions"]
+- !private ["C16SpartacusWorkout7Workout", "title"]
+- ["C16SpartacusWorkout7Workout", ""]
+depends-nominal:
+- "C16SpartacusWorkout3Abs"
+- "Ps9AnyObject"
+- !private "SQ"
+- "C16SpartacusWorkout7Workout"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "54383d24ee8ba1fe91e6ba9bea0607b4"
